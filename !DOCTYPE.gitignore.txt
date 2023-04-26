@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Електронні щоденники та журнали, розклад занять, дистанційне навчання/Электронные дневники в Интернет, расписание уроков, дистанционное обучение"/>
+					<script data-ad-client="ca-pub-9928905476924998" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>	
+			<!--<script data-ad-client="ca-pub-3576432274463673" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152957941-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-152957941-1');
+	</script>
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="92kausBqixPg-3Quv-3Jcjhd49xUZ6TyDmsLLm3rxB-cIUyOpQDtZa3NOGX9jrwiWhWwnjYu5d98GnlCOoSnSw==">
+    <title>Мої новини - Електронні щоденники та журнали з можливостями дистанційного навчання/ Электронные дневники и журналы</title>
+    <link href="/css/jquery.Jcrop.css" rel="stylesheet">
+<link href="/css/jquery.selectbox.css" rel="stylesheet">
+<link href="/js/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="/assets/c81eae42/css/bootstrap.css" rel="stylesheet">
+<link href="/css/site.css?v=47" rel="stylesheet">
+<link href="/css/modules/menu.css?v=2" rel="stylesheet">
+<link href="/assets/62dac333/css/modal-colors.css" rel="stylesheet">
+<script src="/assets/547f4270/jquery.js"></script>
+<script src="/assets/ab4ad9ad/yii.js"></script>
+<script src="/js/global.js"></script>
+<script src="/js/main.js?v=8"></script>
+<script src="/js/forms.js?v=5"></script>
+<script>global_urls = {"addfriend":"\/add_friend","approvefriendrequest":"\/approve_friend_request","deletefriendrequest":"\/delete_friend_request","deletefriend":"\/delete_friend","rejectfriendrequest":"\/reject_friend_request","deleteprivatemessage":"\/delete_private_message","sendmessagewall":"\/post_message_wall","getnextmessages":"\/get_next_messages","deletemessage":"\/delete_message","getnextcomments":"\/get_next_comments","post-image":"\/site\/post-image","addfriendrequest":"\/add_friend_request"}
+var messages = "Додати новину?"; var page_action = "news";</script></head>
+<body class="">
+    
+    <div class="wrapper" id="page">
+        <div class="header ">
+            <div class="h-top clear">
+                <a href="/" title="Нові знання" class="logo">НЗ</a>
+                <a id="changeVision" class="visually-impaired-btn pull-right" href="/site/visually-impaired"><object data="/images/blindmode_icon.svg" type="image/svg+xml"></object> Людям із порушеннями зору</a>                <div class="font-size-btns">
+                    <div class="font-size-dec js_font_minus font-btn-dis" id="fontInc">A-</div>
+                    <div class="font-size-inc js_font_plus" id="fontDec">A+</div>
+                </div>
+                <br>
+            </div>
+            <div class="h-bottom clear">
+                                        <div class="f-left"><b>
+                            Електронні класні журнали та щоденники з можливостями дистанційного навчання                        </b></div>
+                                                        <div class="h-user-info clear">
+                        <a href="/id9131846">
+                            <img src="/images/no_avatar/girl.jpg"
+                                 alt="Напрєєва Аліна Станіславівна" height="20" width="20" />
+                            <span class="ui-title">Напрєєва Аліна Станіславівна</span>
+                        </a>
+                    </div>
+                    <form id="semester-select-form" class="pull-right" action="/site/semester-change" method="post" style="margin: 0 10px">
+<input type="hidden" name="_csrf" value="92kausBqixPg-3Quv-3Jcjhd49xUZ6TyDmsLLm3rxB-cIUyOpQDtZa3NOGX9jrwiWhWwnjYu5d98GnlCOoSnSw=="><div class=" field-personalselectform-semester_id">
+<label class="control-label" for="personalselectform-semester_id">Семестр:</label>
+<select id="personalselectform-semester_id" class="" name="semester_id">
+<option value="1004775" selected>2022-2023 [1], 01.09.2022 - 30.05.2023 (поточний)</option>
+<option value="982159">2021-2022 [1], 01.09.2021 - 01.07.2022 </option>
+<option value="958567">2020-2021 [1], 01.09.2020 - 01.07.2021 </option>
+<option value="936530">2019-2020 [1], 03.09.2019 - 29.05.2020 </option>
+<option value="910508">2018-2019 [1], 03.09.2018 - 02.06.2019 </option>
+<option value="800094">2017-2018 [1], 21.08.2017 - 20.08.2018 </option>
+</select>
+</div></form>                            </div>
+        </div>
+        <div class="main clear">
+            <ul class="sb-menu"><li class="projects-menu"><a href="/menu"><i class="glyphicon glyphicon-th-large"></i>Головна<span class="sbm-tl"></span><span class="sbm-tr"></span><span class="sbm-br"></span><span class="sbm-bl"></span></a></li>
+<li class="profile-menu"><a href="/id9131846">Профіль<span class="sbm-tl"></span><span class="sbm-tr"></span><span class="sbm-br"></span><span class="sbm-bl"></span></a></li>
+<li class="news-menu active"><a href="/dashboard/school-news">Новини  <span class="count-messages">(48)</span><span class="sbm-tl"></span><span class="sbm-tr"></span><span class="sbm-br"></span><span class="sbm-bl"></span></a></li>
+<li class="magazines-menu"><a href="/school15296/schedule/diary">Щоденник<span class="sbm-tl"></span><span class="sbm-tr"></span><span class="sbm-br"></span><span class="sbm-bl"></span></a></li>
+<li class="schedule-menu"><a href="/school15296/schedule">Розклад<span class="sbm-tl"></span><span class="sbm-tr"></span><span class="sbm-br"></span><span class="sbm-bl"></span></a></li>
+<li class="friends-menu"><a href="/friends/index">Друзі<span class="sbm-tl"></span><span class="sbm-tr"></span><span class="sbm-br"></span><span class="sbm-bl"></span></a></li>
+<li class="messages-menu"><a href="/messages/index">Повідомлення<span class="sbm-tl"></span><span class="sbm-tr"></span><span class="sbm-br"></span><span class="sbm-bl"></span></a></li>
+<li class="community-menu"><a href="/communities">Спільноти<span class="sbm-tl"></span><span class="sbm-tr"></span><span class="sbm-br"></span><span class="sbm-bl"></span></a></li>
+<li class="reports-menu"><a href="/reports/children-report/performance"><i class="glyphicon glyphicon-stats"></i>Звіти<span class="sbm-tl"></span><span class="sbm-tr"></span><span class="sbm-br"></span><span class="sbm-bl"></span></a></li>
+<li class="reports-menu"><a href="/pages/training-list"><i class="glyphicon glyphicon-education"></i>Навчання<span class="sbm-tl"></span><span class="sbm-tr"></span><span class="sbm-br"></span><span class="sbm-bl"></span></a></li>
+<li class="login-menu"><a href="/logout" data-method="post">Вийти</a></li></ul>
+                                    <div class="content">
+                
+                <div class="content-wrapper ">
+
+                
+                    <div class="profile clear news-page">
+    <div class="mp-header clear">
+        <ul id="w0" class="mph-nav clear nav "><li><a class="tab" href="/dashboard/school-news">Новини школи<span></span></a></li>
+<li class="active"><a class="tab" href="/dashboard/news">Мої новини<span></span></a></li>
+<li><a class="tab" href="/dashboard/global-news">Новини проекту<span></span></a></li></ul>
+<div class="tab-content"><div id="w0-tab0" class="tab-pane"></div>
+<div id="w0-tab1" class="tab-pane active"></div>
+<div id="w0-tab2" class="tab-pane"></div></div>    </div>
+    <input type="hidden" id="type_page" value="news_feed" />
+    <input type="hidden" id="wall_id" value="9131846" />
+    <div class="news-form-block">
+        <input type="hidden" name="current_page" id="current_page" value="" />
+        <strong>Створити новину у спільноті:</strong>
+                <a class="add-community-news" href="/dashboard/news" data-page_id="2067994">Мій клас</a>, <a class="add-community-news" href="/dashboard/news" data-page_id="2068001">Мій клас та класний керівник</a>
+        <form id="container_reply_" class="comment-form container_reply opened hidden news-form" action="/community/create-news" method="post" style="display: block; padding: 0px">
+<input type="hidden" name="_csrf" value="92kausBqixPg-3Quv-3Jcjhd49xUZ6TyDmsLLm3rxB-cIUyOpQDtZa3NOGX9jrwiWhWwnjYu5d98GnlCOoSnSw==">            <fieldset>
+                <div class="cf-message-container" id="comment-container" style="margin-bottom: 15px">
+                    <a href="#" class="glyphicon glyphicon-remove  hide-news-input arrow-left-link" style="display: block; float: left; left: 99%"></a>
+
+                    <div class="form-group field-commnews-title required">
+
+<input type="text" id="commnews-title" class="titletext" name="CommNews[title]" placeholder="Заголовок новини" aria-required="true">
+
+<div class="help-block"></div>
+</div>
+                    <div class="form-group field-commnews-content required">
+
+<textarea id="commnews-content" class="contenttext" name="CommNews[content]" placeholder="Текст новини" aria-required="true"></textarea>
+
+<div class="help-block"></div>
+</div>
+                    <button type="submit" id="btn-submit" class="orange-button send-news" rel=" id=&#039;new&#039;">Зберегти</button>                </div>
+            </fieldset>
+        </form>    </div>
+    <div class="messages">
+                    <ul class="messages-list news_container">
+                    <li>
+        <div class="clear">
+            <div class="ml-author"><a 
+                    href="/id7127735" 
+                    title="Ткаченко Леся Миколаївна" class="mla-image"><img 
+                        src="/upload/users_img/users/avatars/712/7127735/20x20.jpg" 
+                        alt="Ткаченко Леся Миколаївна" 
+                        height="20" width="20" /></a> 
+                    <a href="/id7127735" 
+                       title="Ткаченко Леся Миколаївна">
+                          <a href="/id7127735">Ткаченко Леся Миколаївна</a></a>
+            </div>
+            <div class="ml-date">сьогодні о 9:33</div>
+        </div>
+
+                        <div class="ml-message">
+                    Ви отримали оцінку Н по предмету: Українська мова , Поточна                </div>
+                    </li>
+    <li>
+        <div class="clear">
+            <div class="ml-author"><a 
+                    href="/id7127415" 
+                    title="Загрийчук Ольга Юріївна" class="mla-image"><img 
+                        src="/images/no_avatar/woman.jpg" 
+                        alt="Загрийчук Ольга Юріївна" 
+                        height="20" width="20" /></a> 
+                    <a href="/id7127415" 
+                       title="Загрийчук Ольга Юріївна">
+                          <a href="/id7127415">Загрийчук Ольга Юріївна</a></a>
+            </div>
+            <div class="ml-date">сьогодні о 8:49</div>
+        </div>
+
+                        <div class="ml-message">
+                    Ви отримали оцінку Н по предмету: Історія України, Поточна                </div>
+                    </li>
+    <li>
+        <div class="clear">
+            <div class="ml-author"><a 
+                    href="/id7127727" 
+                    title="Ордановська Людмила Євгенівна" class="mla-image"><img 
+                        src="/images/no_avatar/woman.jpg" 
+                        alt="Ордановська Людмила Євгенівна" 
+                        height="20" width="20" /></a> 
+                    <a href="/id7127727" 
+                       title="Ордановська Людмила Євгенівна">
+                          <a href="/id7127727">Ордановська Людмила Євгенівна</a></a>
+            </div>
+            <div class="ml-date">вчора о 13:15</div>
+        </div>
+
+                        <div class="ml-message">
+                    Ви отримали оцінку 2 по предмету: Алгебра, Поточна                </div>
+                    </li>
+    <li>
+        <div class="clear">
+            <div class="ml-author"><a 
+                    href="/id7127735" 
+                    title="Ткаченко Леся Миколаївна" class="mla-image"><img 
+                        src="/upload/users_img/users/avatars/712/7127735/20x20.jpg" 
+                        alt="Ткаченко Леся Миколаївна" 
+                        height="20" width="20" /></a> 
+                    <a href="/id7127735" 
+                       title="Ткаченко Леся Миколаївна">
+                          <a href="/id7127735">Ткаченко Леся Миколаївна</a></a>
+            </div>
+            <div class="ml-date">вчора о 11:40</div>
+        </div>
+
+                        <div class="ml-message">
+                    Ви отримали оцінку 8 по предмету: Українська мова , Поточна                </div>
+                    </li>
+    <li>
+        <div class="clear">
+            <div class="ml-author"><a 
+                    href="/id7127415" 
+                    title="Загрийчук Ольга Юріївна" class="mla-image"><img 
+                        src="/images/no_avatar/woman.jpg" 
+                        alt="Загрийчук Ольга Юріївна" 
+                        height="20" width="20" /></a> 
+                    <a href="/id7127415" 
+                       title="Загрийчук Ольга Юріївна">
+                          <a href="/id7127415">Загрийчук Ольга Юріївна</a></a>
+            </div>
+            <div class="ml-date">вчора о 9:43</div>
+        </div>
+
+                        <div class="ml-message">
+                    Ви отримали оцінку Н по предмету: Всесвітня історія, Поточна                </div>
+                    </li>
+    <li>
+        <div class="clear">
+            <div class="ml-author"><a 
+                    href="/id7127727" 
+                    title="Ордановська Людмила Євгенівна" class="mla-image"><img 
+                        src="/images/no_avatar/woman.jpg" 
+                        alt="Ордановська Людмила Євгенівна" 
+                        height="20" width="20" /></a> 
+                    <a href="/id7127727" 
+                       title="Ордановська Людмила Євгенівна">
+                          <a href="/id7127727">Ордановська Людмила Євгенівна</a></a>
+            </div>
+            <div class="ml-date">20 квітня о 11:24</div>
+        </div>
+
+                        <div class="ml-message">
+                    Ви отримали оцінку Н по предмету: Геометрія, Поточна                </div>
+                    </li>
+    <li>
+        <div class="clear">
+            <div class="ml-author"><a 
+                    href="/id7127727" 
+                    title="Ордановська Людмила Євгенівна" class="mla-image"><img 
+                        src="/images/no_avatar/woman.jpg" 
+                        alt="Ордановська Людмила Євгенівна" 
+                        height="20" width="20" /></a> 
+                    <a href="/id7127727" 
+                       title="Ордановська Людмила Євгенівна">
+                          <a href="/id7127727">Ордановська Людмила Євгенівна</a></a>
+            </div>
+            <div class="ml-date">20 квітня о 11:23</div>
+        </div>
+
+                        <div class="ml-message">
+                    Ви отримали оцінку Н по предмету: Алгебра, Поточна                </div>
+                    </li>
+    <li>
+        <div class="clear">
+            <div class="ml-author"><a 
+                    href="/id7127735" 
+                    title="Ткаченко Леся Миколаївна" class="mla-image"><img 
+                        src="/upload/users_img/users/avatars/712/7127735/20x20.jpg" 
+                        alt="Ткаченко Леся Миколаївна" 
+                        height="20" width="20" /></a> 
+                    <a href="/id7127735" 
+                       title="Ткаченко Леся Миколаївна">
+                          <a href="/id7127735">Ткаченко Леся Миколаївна</a></a>
+            </div>
+            <div class="ml-date">19 квітня о 09:17</div>
+        </div>
+
+                        <div class="ml-message">
+                    Ви отримали оцінку 6 по предмету: Українська мова , Усний твір                 </div>
+                    </li>
+    <li>
+        <div class="clear">
+            <div class="ml-author"><a 
+                    href="/id7127727" 
+                    title="Ордановська Людмила Євгенівна" class="mla-image"><img 
+                        src="/images/no_avatar/woman.jpg" 
+                        alt="Ордановська Людмила Євгенівна" 
+                        height="20" width="20" /></a> 
+                    <a href="/id7127727" 
+                       title="Ордановська Людмила Євгенівна">
+                          <a href="/id7127727">Ордановська Людмила Євгенівна</a></a>
+            </div>
+            <div class="ml-date">19 квітня о 05:29</div>
+        </div>
+
+                        <div class="ml-message">
+                    Ви отримали оцінку 2 по предмету: Алгебра, Поточна                </div>
+                    </li>
+    <li>
+        <div class="clear">
+            <div class="ml-author"><a 
+                    href="/id7127415" 
+                    title="Загрийчук Ольга Юріївна" class="mla-image"><img 
+                        src="/images/no_avatar/woman.jpg" 
+                        alt="Загрийчук Ольга Юріївна" 
+                        height="20" width="20" /></a> 
+                    <a href="/id7127415" 
+                       title="Загрийчук Ольга Юріївна">
+                          <a href="/id7127415">Загрийчук Ольга Юріївна</a></a>
+            </div>
+            <div class="ml-date">18 квітня о 10:53</div>
+        </div>
+
+                        <div class="ml-message">
+                    Ви отримали оцінку Н по предмету: Історія України, Поточна                </div>
+                    </li>
+            </ul>
+                            <a onclick="return false" class="load_all_news"
+                   lastNews="305232131"
+                   href="/dashboard/getnextnews">Завантажити ще</a>
+                        </div>
+</div>                </div>
+            </div>
+			
+            
+<div class="right-sidebar">
+    
+        
+    <div class="rs-block">
+    <h2 class="green-header">Домашні завдання</h2>
+    <ul class="sb-home-work">
+        
+    <li>
+        <div class="sbhw-title clear">
+            <div class="sbhwt-left">27.04.23<span>—</span></div>
+            <div class="sbhwt-right">На завтра</div>
+        </div>
+        <ul>
+                            <li class="clear">
+                    <div class="sbhwl-left">Англійська мова</div>
+                    <div class="sbhwl-right">Google CL</a></div>
+                </li>
+                            <li class="clear">
+                    <div class="sbhwl-left">Алгебра</div>
+                    <div class="sbhwl-right">	Ст 172</a></div>
+                </li>
+                            <li class="clear">
+                    <div class="sbhwl-left">Геометрія</div>
+                    <div class="sbhwl-right">	§ 4-5-6</a></div>
+                </li>
+                    </ul>
+    </li>
+    </ul>
+    </div>
+ 
+    
+    <div class="rs-block">
+    <h2 class="green-header">Останні оцінки</h2>
+    <ul class="sb-last-rates">
+        <li class="clear"><div class="sblr-left">Українська мова </div><div class="sblr-right">Н</div></li><li class="clear"><div class="sblr-left">Українська мова </div><div class="sblr-right">8</div></li><li class="clear"><div class="sblr-left">Алгебра</div><div class="sblr-right">2</div></li><li class="clear"><div class="sblr-left">Історія України</div><div class="sblr-right">Н</div></li><li class="clear"><div class="sblr-left">Алгебра</div><div class="sblr-right">Н</div></li>    </ul>
+    </div>
+    
+    <div class="rs-block">
+    <h2 class="orange-header">Найближчі дні народження</h2>
+    <ul class="wg-birth">
+                    <li class=""> <a href="/id9131849">Сергєєв Вадим Олегович</a><br>
+                <span><i class="glyphicon glyphicon-gift" style="color: red"></i> 
+                    Сьогодні 
+                </span>
+            </li>
+                    <li class=""> <a href="/id9131856">Чистоєва Єлизавета Антонівна</a><br>
+                <span><i class="glyphicon glyphicon-gift" style="color: red"></i> 
+                    14 травня 
+                </span>
+            </li>
+                    <li class=""> <a href="/id7144837">Козіна Аліса Віталіївна</a><br>
+                <span><i class="glyphicon glyphicon-gift" style="color: red"></i> 
+                    1 червня 
+                </span>
+            </li>
+                    <li class=""> <a href="/id9131853">Ткаченко Валерія Андріївна</a><br>
+                <span><i class="glyphicon glyphicon-gift" style="color: red"></i> 
+                    13 червня 
+                </span>
+            </li>
+                    <li class=""> <a href="/id9131836">Булава Олександр Дмитрович</a><br>
+                <span><i class="glyphicon glyphicon-gift" style="color: red"></i> 
+                    5 липня 
+                </span>
+            </li>
+                    <li class="hidden"> <a href="/id7127735">Ткаченко Леся Миколаївна</a><br>
+                <span><i class="glyphicon glyphicon-gift" style="color: red"></i> 
+                    8 липня 
+                </span>
+            </li>
+                    <li class="hidden"> <a href="/id9131851">Стопчанський Кірілл Максимович</a><br>
+                <span><i class="glyphicon glyphicon-gift" style="color: red"></i> 
+                    8 липня 
+                </span>
+            </li>
+                    <li class="hidden"> <a href="/id9131855">Федорова Юліана Юріївна</a><br>
+                <span><i class="glyphicon glyphicon-gift" style="color: red"></i> 
+                    21 липня 
+                </span>
+            </li>
+                    <li class="hidden"> <a href="/id9131844">Михальченко Микола Владиславович</a><br>
+                <span><i class="glyphicon glyphicon-gift" style="color: red"></i> 
+                    11 серпня 
+                </span>
+            </li>
+                    <li class="hidden"> <a href="/id9131852">Терпак Микита Віталійович</a><br>
+                <span><i class="glyphicon glyphicon-gift" style="color: red"></i> 
+                    13 серпня 
+                </span>
+            </li>
+            </ul>
+            <div class="show-more-birth-block">
+            <a class="show-more-birth" href="/dashboard/news">Показати ще</a>        </div>
+    </div>
+    
+    <button type="button" class="btn btn-primary" data-toggle="modal" style="width: 160px; margin: 0 auto 12px; display: block;" data-target="#support-modal">Технічна підтримка</button>
+<div id="support-modal" class="fade modal" role="dialog" tabindex="-1">
+<div class="modal-dialog ">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<span><h3>Технічна підтримка</h3></span>
+
+</div>
+<div class="modal-body">
+
+</div>
+
+</div>
+</div>
+</div>    
+        
+        
+    <div class="rs-block">
+    <h2 class=""></h2>
+    <ul class="adv-list">
+        <div style="width:220px !important;overflow:visible;margin-left: -10px;margin-top: -10px;">
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- nz right ru -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3576432274463673"
+     data-ad-slot="7699390802"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!--
+<br>
+<a href="https://bit.ly/3CB4Tq3" target="_blank"><img src="/images/baner.jpg"  alt=""></a>
+-->
+
+</div>    </ul>
+    </div>
+
+</div>        </div>
+        
+		<div style="text-align:center; ">
+
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- nz footer ru -->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-3576432274463673"
+				 data-ad-slot="7590936364"
+				 data-ad-format="auto"
+				 data-full-width-responsive="true"></ins>
+			<script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+
+		</div>
+
+<div class="footer-wrapper">
+    <div class="footer clear">
+        <div class="footer-title">
+            <div class="clear">            
+                <a href="/" title="Нові знання">Нові знання</a>
+            </div>
+        </div>
+        <div class="footer-left">
+            <div class="clear">            
+                <span>Створено на платформі</span>
+                <a href="http://isuo.org" title="Україна. ІСУО - інформаційна система управління освітою © 2011">ІСУО © 2011</a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <li> <a class="external_link" href="/page/about">Про сайт</a> </li>
+                <li> <a class="external_link" href="/page/support">Допомога</a> </li>
+                <li>  </li>
+                <li>  </li>			
+            </ul>
+                            <div style="float:right; position:relative; top:5px;">
+<!-- hit.ua invisible part -->
+<a href='http://hit.ua/?x=25823' target='_blank'>
+<script language="javascript" type="text/javascript"><!--
+Cd=document;Cr="&"+Math.random();Cp="&s=1";
+Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
+Cp+="&t="+(new Date()).getTimezoneOffset();
+if(self!=top)Cp+="&f=1";
+//--></script>
+<script language="javascript1.1" type="text/javascript"><!--
+if(navigator.javaEnabled())Cp+="&j=1";
+//--></script>
+<script language="javascript1.2" type="text/javascript"><!--
+if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
+screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
+//--></script>
+<script language="javascript" type="text/javascript"><!--
+Cd.write("<sc"+"ript src='//c.hit.ua/hit?i=25823&g=0&x=3"+Cp+Cr+
+"&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+"'></sc"+"ript>");
+//--></script>
+<noscript>
+<img src='//c.hit.ua/hit?i=25823&amp;g=0&amp;x=2' border='0'/>
+</noscript></a>
+<!-- / hit.ua invisible part -->
+
+<!-- hit.ua visible part -->
+<script language="javascript" type="text/javascript"><!--
+if (typeof(hitua) == 'object') document.write("<table cellpadding='0' cellspacing='0' border='0' style='display: inline'><tr><td><div style='width: 86px; height: 29px; padding: 0px; margin: 0px; border: solid #fff 1px; background-color: #fff'><a href='http://hit.ua/?x=" + hitua.site_id + "' target='_blank' style='float: left; padding: 3px; font: bold 8px tahoma; text-decoration: none; color: #f90' title='hit.ua - сервис интернет статистики'>HIT.UA</a><div style='padding: 3px; float: right; text-align: right; font: 7.1px tahoma; color: #999' title='hit.ua: сейчас на сайте, посетителей и просмотров за сегодня'>" + hitua.online_count + "<br>" + hitua.uid_count + "<br>" + hitua.hit_count + "</div></div></td></tr></table>");
+//--></script>
+<!-- / hit.ua visible part -->
+
+                            </div>	
+
+							<div style="float:right; margin-right:5px;">
+							<a href='https://apps.apple.com/us/app/nz-ua-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8-%D1%82%D0%B0-%D1%89%D0%BE%D0%B4%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%D0%B8/id1593698728'><img alt='Завантажити з App Store' height='45px'src='/images/mob/Z_AppStore-ua.png'/></a>							
+							</div>	
+							<div style="float:right; margin-right:5px;">
+							<a href='https://play.google.com/store/apps/details?id=ua.nz.NZClient&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Завантажити з Google Play' height='45px'src='/images/mob/Z_GooglePlay-ua.png'/></a>							
+							</div>	
+
+        </div>
+    </div>
+</div>    </div>
+    <div class="page-fade">	</div>
+        <script src="/js/textarea_autoResize.js"></script>
+<script src="/js/jquery.autoresize.js"></script>
+<script src="/js/messages.js?v=1"></script>
+<script src="/js/translate.js"></script>
+<script src="/js/community.js?v=5"></script>
+<script src="/js/search.js"></script>
+<script src="/js/ajaxfileupload.js"></script>
+<script src="/js/uploadFiles.js"></script>
+<script src="/js/fancybox/jquery.fancybox-1.3.4.js"></script>
+<script src="/js/jquery.Jcrop.js"></script>
+<script src="/js/jquery.selectbox-0.6.1.js"></script>
+<script src="/js/fontawesome/solid.min.js"></script>
+<script src="/js/fontawesome/fontawesome.min.js"></script>
+<script src="/js/jquery.waypoints.min.js"></script>
+<script src="/js/window_scroll_news.js"></script>
+<script src="/assets/c81eae42/js/bootstrap.js"></script>
+<script src="/assets/ab4ad9ad/yii.validation.js"></script>
+<script src="/assets/ab4ad9ad/yii.activeForm.js"></script>
+<script src="/assets/62dac333/js/kb-modal-ajax.js"></script>
+<script>jQuery(function ($) {
+translates = {
+            "Вы хотите обрезать картинку?" : "Ви хочете обрізати картинку?",
+            "Введите название фотоальбома" : "Введіть назву фотоальбому",
+            "Заполните название страницы" : "Заповніть назву сторінки",
+            "Вы хотите удалить страницу?" : "Ви хочете видалити сторінку?",
+            "Вы хотите удалить новость?" : "Ви бажаєте видалити новину?",
+            "Вы хотите удалить картинку?" : "Ви бажаєте видалити картинку?",
+            "Вы хотите удалить этот коментарий?" : "Ви бажаєте видалити цей коментар?",
+            "Вы хотите удалить папку?" : "Ви бажаєте видалити папку?",
+            "Вы хотите удалить сообщество?" : "Ви бажаєте видалити спільноту?",
+            "Введите сообщение" : "Введіть повідомлення",
+            "Сообщение слишком длинное" : "Повідомлення занадто довге",
+            "Введите название сообщества" : "Введіть назву спільноти",
+            "Вы хотите отклонить этого пользователя?" : "Ви бажаєте відхилити цього користувача?",
+            "Вы хотите принять этого пользователя?" : "Ви бажаєте прийняти цього користувача?",
+            "Сохранить" : "Зберегти",
+            "Вы хотите разбанить этого пользователя?" : "Ви бажаєте розбанити цього користувача?",
+            "Вы хотите забанить этого пользователя?" : "Ви бажаєте забанити цього користувача?",
+            "Введите тему и сообщение" : "Введіть тему і повідомлення",
+            "Сообщение отправлено" : "Повідомлення відправлено",
+            "Вы хотите удалить это сообщение?" : "Ви бажаєте видалити це повідомлення?",
+            "Вы хотите отправить запрос на дружбу?" : "Ви бажаєте відправити запит на дружбу?",
+            "Вы хотите добавить друга?" : "Ви бажаєте додати друга?",
+            "Вы хотите удалить этого человека из друзей?" : "Ви бажаєте видалити цю людину з друзів?",
+            "Вы хотите отклонить заявку на дружбу?" : "Ви бажаєте відхилити заявку на дружбу?",
+            "Вы хотите удалить заявку?" : "Ви бажаєте видалити заявку?",
+            "Вы хотите удалить это сообщение без возможности восстановления?" : "Ви бажаєте видалити це повідомлення без можливості відновлення?",
+            "Вы хотите восстановить это сообщение?" : "Ви бажаєте відновити це повідомлення?",
+            "Ничего не выделено" : "Нічого не виділено",
+            "Вы хотите восстановить эти сообщения?" : "Ви бажаєте відновити ці повідомлення?",
+            "Вы хотите удалить эти сообщения без возможности восстановления?" : "Ви бажаєте видалити ці повідомлення без можливості відновлення?",
+            "Вы хотите удалить эти сообщения?" : "Ви бажаєте видалити ці повідомлення?",
+            "Вы хотите удалить этот файл?" : "Ви бажаєте видалити цей файл?",
+            "" : "",
+            "" : "",
+            "" : "",
+            "" : "",
+            "" : "",
+        }
+jQuery('#w0').tab();
+jQuery('#container_reply_').yiiActiveForm([{"id":"commnews-title","name":"title","container":".field-commnews-title","input":"#commnews-title","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необхідно заповнити \u0022Заголовок новини\u0022."});yii.validation.string(value, messages, {"message":"Значення \u0022Заголовок новини\u0022 має бути текстовим рядком.","max":255,"tooLong":"Значення \u0022Заголовок новини\u0022 повинно містити максимум 255 символів.","skipOnEmpty":1});}},{"id":"commnews-content","name":"content","container":".field-commnews-content","input":"#commnews-content","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Значення \u0022Текст новини\u0022 має бути текстовим рядком.","skipOnEmpty":1});yii.validation.required(value, messages, {"message":"Необхідно заповнити \u0022Текст новини\u0022."});}}], []);
+jQuery('#semester-select-form').yiiActiveForm([], []);
+
+    $('form#semester-select-form select').change(function() {
+        $(this.form).submit();
+    });
+
+jQuery('#support-modal').modal({"show":false});
+
+            jQuery('#support-modal').kbModalAjax({
+                url: '/account/support',
+                size:'sm',
+                ajaxSubmit: true
+            });
+        
+jQuery('#support-modal').on('kbModalSubmit', 
+                function(event, data, status, xhr) {
+                    if(status){
+                        
+                    }
+                }
+            )
+});</script></body>
+</html>
